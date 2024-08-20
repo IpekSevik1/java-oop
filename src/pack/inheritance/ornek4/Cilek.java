@@ -1,4 +1,4 @@
-package pack.inheritance.ornek5;
+package pack.inheritance.ornek4;
 
 public class Cilek extends Meyve {
     public void tatTestiYap() {

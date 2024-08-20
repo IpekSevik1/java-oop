@@ -1,21 +1,23 @@
 import pack.inheritance.ornek1.Futbol;
+import pack.inheritance.ornek1.ToplaOynananSporDallari;
 import pack.inheritance.ornek2.Aydinlatma;
 import pack.inheritance.ornek2.RenkliLamba;
-import pack.inheritance.ornek3.Calisanlar;
-import pack.inheritance.ornek3.DemirFirmasiCalisanlari;
-import pack.inheritance.ornek4.Animal;
-import pack.inheritance.ornek4.Dog;
-import pack.inheritance.ornek5.Cilek;
-import pack.inheritance.ornek5.Elma;
-import pack.inheritance.ornek5.Mandalina;
-import pack.inheritance.ornek5.Meyve;
+import pack.inheritance.ornek3.Kopek;
+import pack.inheritance.ornek4.Cilek;
+import pack.inheritance.ornek4.Elma;
+import pack.inheritance.ornek4.Mandalina;
+import pack.inheritance.ornek4.Meyve;
 
 public class Main {
     public static void main(String[] args) {
         //ORNEK1
+        ToplaOynananSporDallari toplaOynananSporDallari = new ToplaOynananSporDallari();
+        toplaOynananSporDallari.topaVur();
+
         Futbol futbol = new Futbol();
         futbol.topaVur();
         futbol.sutCek();
+
 
         //ORNEK2
         Aydinlatma aydinlatma = new Aydinlatma();
@@ -39,35 +41,22 @@ public class Main {
         System.out.println("Renkli lamba urun sayisi: " + renkliLamba.sistemUrunSayisi);
         System.out.println("Renkli lamba garanti suresi: " + renkliLamba.garantiSuresi);
 
-        //ORNEK3
-        DemirFirmasiCalisanlari demirFirmasiCalisanlari = new DemirFirmasiCalisanlari();
-        demirFirmasiCalisanlari.calisanSayisi(800);
-        demirFirmasiCalisanlari.firmaAdi = "Demir Firmasi";
-        System.out.println(demirFirmasiCalisanlari.firmaAdi + " maas: " + demirFirmasiCalisanlari.maasiYaz(1400));
-        System.out.println("Prim miktari: " + demirFirmasiCalisanlari.primGetir(300));
 
-        Calisanlar demirFirmasiCalisanlari2 = new DemirFirmasiCalisanlari();
-        demirFirmasiCalisanlari2.calisanSayisi(1000);
-        demirFirmasiCalisanlari2.firmaAdi = "Demir Firmasi";
-        System.out.println(demirFirmasiCalisanlari2.firmaAdi + " maas: " + demirFirmasiCalisanlari2.maasiYaz(1200));
+        //ORNEK3
+        Kopek kopek = new Kopek();
+        System.out.println(kopek instanceof Kopek);
+
 
         //ORNEK4
-        Dog dog = new Dog();
-        System.out.println(dog instanceof Animal);
+        Meyve cilek = new Cilek();
+        Meyve meyve = new Meyve();
 
-        //ORNEK5
-        Meyve meyve1 = new Elma();
-        Meyve meyve2 = new Cilek();
-        Meyve meyve3 = new Mandalina();
-        Meyve meyve4 = new Meyve();
-
-        meyveIslemiYap(meyve1);
-        meyveIslemiYap(meyve2);
-        meyveIslemiYap(meyve3);
-        meyveIslemiYap(meyve4);
+        meyveIslemiYap(cilek);
+        meyveIslemiYap(meyve);
     }
 
-    //ORNEK5
+
+    //ORNEK4
     public static void meyveIslemiYap(Meyve meyve) {
         if (meyve instanceof Cilek) {
             ((Cilek) meyve).tatTestiYap();
@@ -80,3 +69,17 @@ public class Main {
         }
     }
 }
+
+    /*  //Polımorphızm ORNEK1
+        DemirFirmasiCalisanlari demirFirmasiCalisanlari = new DemirFirmasiCalisanlari();
+        demirFirmasiCalisanlari.calisanSayisiniYazdir(800);
+        demirFirmasiCalisanlari.firmaAdi = "Demir Firmasi";
+        System.out.println(demirFirmasiCalisanlari.firmaAdi + " maas: " + demirFirmasiCalisanlari.maasiYaz(1400));
+        System.out.println("Prim miktari: " + demirFirmasiCalisanlari.primGetir(300));
+
+        Calisanlar demirFirmasiCalisanlari2 = new DemirFirmasiCalisanlari();
+        demirFirmasiCalisanlari2.calisanSayisiniYazdir(1000);
+        demirFirmasiCalisanlari2.firmaAdi = "Demir Firmasi";
+        System.out.println(demirFirmasiCalisanlari2.firmaAdi + " maas: " + demirFirmasiCalisanlari2.maasiYaz(1200));
+
+    */

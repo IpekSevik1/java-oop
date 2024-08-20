@@ -1,4 +1,4 @@
-package pack.inheritance.ornek3;
+package pack.polymorphism.ornek1;
 
 public class Calisanlar {
     public String firmaAdi;
@@ -7,7 +7,7 @@ public class Calisanlar {
         return maas;
     }
 
-    public void calisanSayisi(int nufus) {
+    public void calisanSayisiniYazdir(int nufus) {
         System.out.println("Calisan Sayisi: " + nufus + " kisidir.");
     }
 }
