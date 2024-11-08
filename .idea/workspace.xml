@@ -5,17 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b29ff245-7e95-4728-a645-d398aa9de1f2" name="Changes" comment="remove unncessary directors">
-      <change afterPath="$PROJECT_DIR$/src/pack/inheritance/ornek3/Hayvan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/abstractclass/ornek1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/abstractclass/ornek1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/abstractclass/ornek1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/accessmodifiers/languagefamily/GermanLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/accessmodifiers/languagefamily/LatinLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/constructor/ornek1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/constructor/ornek2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/constructor/ornek2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/encapsulation/ornek1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/encapsulation/ornek2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/finalsample/ornek1/FinalSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/interfacee/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/interfacee/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/interfacee/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek1/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek1/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek2/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek2/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek3/Mathematics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek4/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek4/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek5/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek5/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/staticsample/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek3/Calisanlar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek1/Calisanlar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek3/DemirFirmasiCalisanlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/polymorphism/ornek1/DemirFirmasiCalisanlari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek4/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek4/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/inheritance/ornek3/Kopek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek5/Cilek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/inheritance/ornek4/Cilek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek5/Elma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/inheritance/ornek4/Elma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek5/Mandalina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/inheritance/ornek4/Mandalina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek5/Meyve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/inheritance/ornek4/Meyve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/inheritance/ornek3/Kopek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pack/inheritance/ornek3/Kopek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/polymorphism/ornek1/Calisanlar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pack/polymorphism/ornek1/DemirFirmasiCalisanlari.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,13 +62,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hicran/Desktop/ipeks-travel/practises/java-oop&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Hicran/Desktop/ipeks-travel/practises/java-oop",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hicran\Desktop\ipeks-travel\practises\java-oop\untitled\src" />
@@ -105,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723829504821</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove unncessary directors">
+      <created>1724195345550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724195345550</updated>
+    </task>
+    <task id="LOCAL-00006" summary="remove unncessary directors">
+      <created>1724195562001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724195562001</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,16 +159,5 @@
     <MESSAGE value="inheritance Samples" />
     <MESSAGE value="remove unncessary directors" />
     <option name="LAST_COMMIT_MESSAGE" value="remove unncessary directors" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pack/SmartStudent.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
